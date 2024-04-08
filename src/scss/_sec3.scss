@@ -1,0 +1,179 @@
+.sec3 {
+    padding: 120px 0;
+    // z-index: 500;
+    background-color: rgb(241, 236, 236);
+
+
+    .sec2-content {
+
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        // display: flex;
+        display: flex;
+
+
+
+        .content-left {
+            width: 50%;
+            background-image: url("https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/base.png");
+            background-position: center left;
+            background-repeat: no-repeat;
+            border-radius: 6px 0px 0px 0px;
+            padding: 15px 0px 0px 70px;
+            height: 100%;
+            z-index: 555;
+            position: relative;
+
+            .logo {
+                position: absolute;
+                right: 20%;
+                top: 12%;
+            }
+
+            .c-l-bottom {
+                width: 450px;
+                padding: 16px 11px 16px 110px;
+                background-color: #50A72C;
+                z-index: 15;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: flex-end;
+                border-radius: 6px;
+                align-items: center;
+                gap: 10px;
+
+
+
+                span {
+                    font-size: 40px;
+                    font-weight: 800;
+                    color: #ffffff;
+                    font-family: "Manrope", sans-serif;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    margin-right: 20px;
+                }
+            }
+
+            img {
+                // width: 300px;
+                // position: absolute;
+            }
+        }
+
+        .content-right {
+            width: 50%;
+
+            h3 {
+                font-size: 24px;
+                color: #50A72C;
+                font-family: "Caveat", sans-serif;
+            }
+
+            h1 {
+                font-size: 45px;
+                color: #2A491D;
+                font-family: "Manrope", sans-serif;
+                font-weight: 800;
+                word-spacing: 0.04em;
+            }
+
+            h4 {
+                font-size: 18px;
+                font-family: "Manrope", sans-serif;
+                color: #50A72C;
+                font-weight: 800;
+                margin-top: 32px;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: "Manrope", sans-serif;
+                color: #7d8978;
+                margin-top: 32px;
+                line-height: 2;
+                font-weight: 600;
+            }
+
+            hr {
+                margin: 35px 0;
+                opacity: 0.3;
+            }
+
+            .right-img {
+                display: flex;
+                gap: 30px;
+                margin-bottom: 45px;
+
+                h5 {
+                    font-size: 24px;
+                    color: #2A491D;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 800;
+                    word-spacing: 0.04em;
+                }
+            }
+            a{
+                padding: 16px 38px;
+                background-color: orange;
+                border-radius: 50px;
+                transition: 0.3s;
+                &:hover{
+                    background-color:green;
+                }
+
+                span{
+                    font-size: 14px;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 800;
+                    color: #fff;
+                }
+            }
+
+            .natural-p {
+                padding-top: 40px;
+                display: flex;
+                gap: 30px;
+
+                i {
+                    // background-color: orange;
+                    color: orange;
+                    border: none;
+                }
+
+                span {
+                    font-size: 18px;
+                    font-family: "Manrope", sans-serif;
+                    color: #2A491D;
+                    font-weight: 800;
+
+                }
+
+                .n-p-left {
+                    padding: 15px 30px;
+                    background-color: white;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+
+                .n-p-right {
+                    padding: 15px 30px;
+                    background-color: white;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+
+            }
+        }
+    }
+}

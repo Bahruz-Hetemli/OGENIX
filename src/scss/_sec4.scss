@@ -1,0 +1,156 @@
+.sec4 {
+    padding: 0 15px;
+    width: 100%;
+    height: auto;
+
+    .sec4-content {
+        padding-bottom: 120px;
+        width: 80%;
+        margin: 0 auto;
+
+
+        .content-title {
+            text-align: center;
+
+            h2 {
+                font-size: 24px;
+                font-family: "Caveat", sans-serif;
+                color: #50a72c;
+            }
+
+            h3 {
+                font-size: 45px;
+                color: #2A491D;
+                font-family: "Manrope", sans-serif;
+                font-weight: 800;
+                word-spacing: 0.04em;
+            }
+        }
+
+        .content-boxes {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            position: relative;
+            gap: 30px;
+
+            .big-box1 {
+                height: 400px;
+                background-image: url("	https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/Base-1.png");
+                background-position: 0 46%;
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: relative;
+                z-index: 5;
+
+
+                .small-div {
+
+                    width: 180px;
+                    height: 180px;
+                    border-style: solid;
+                    border-width: 0px 2px 10px 2px;
+                    border-color: #ffffff;
+                    border-radius: 100%;
+                    transition: 0.4s;
+                    z-index: 55;
+                    left: 16%;
+                    margin-top: 80px;
+                    position: absolute;
+
+                    &:hover {
+                        border-color: #50a72c;
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                }
+                .border-color:hover{
+                    border-color: orange;
+                }
+
+
+
+                .box-down {
+                    background-color: #F2F2EC;
+                    height: 200px;
+                    width: 100%;
+                    padding: 25px 40px 0;
+                    bottom: 0;
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    justify-content: center;
+
+
+
+                    .downbox-title {
+                        //   display: block;
+                        text-align: center;
+                        width: 100%;
+                        margin-top: -10px;
+                        
+                        h4 {
+                            margin-bottom: 10px;
+
+                            
+                            a{
+                                font-size: 20px;
+                                font-family: "Manrope", sans-serif;
+                                color: #2a491d;
+                                font-weight: 800;
+
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #7d8978;
+                            font-family: "Manrope", sans-serif;
+                            font-weight: 600;
+                            line-height: 1.5;
+                            
+                        }
+                    }
+
+
+                    .link{
+                        position: absolute;
+                        bottom: -25px;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                        display: inline-block;
+                        background-color: #50a72c;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // margin-bottom: -25px;
+                        transition: 0.4s;
+    
+                        i{
+                            color: white;
+                        }
+
+                        &:hover{
+                            background-color: orange;
+                        }
+                    }
+                    .color{
+                        background-color: orange;
+
+                        &:hover{
+                            background-color: #50a72c;
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+}

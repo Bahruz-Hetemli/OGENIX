@@ -1,0 +1,91 @@
+.sec2 {
+    width: 100%;
+    padding: 0px 12px;
+    height: auto;
+    background-image: url("https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    // z-index: 100;
+    // padding: 120px 0;
+    background-color: rgb(241, 236, 236);
+
+    .main-div {
+        width: 100%;
+        padding: 31px 30px 39px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        z-index: 999;
+        // position: absolute;
+        background-color: white;
+        align-items: center;
+        border-radius: 6px;
+        margin-top: -20px;
+
+
+
+        .main-box {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            line-height: 1.555em;
+            letter-spacing: -0.04em;
+            z-index: 15;
+            margin-top: -20px;
+
+            img {
+                transition: 0.3s;
+                width: 70px;
+            }
+
+            img:hover {
+                transform: scale(0.8);
+            }
+
+            .box-content {
+                padding-top: 10px;
+
+
+                h1 {
+                    color: #2A491D;
+                    font-size: 18px;
+                    font-weight: 800;
+                    font-family: "Manrope", sans-serif;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: "Manrope", sans-serif;
+                    color: #7d8978;
+                    font-weight: 600;
+                }
+
+            }
+
+        }
+
+        .main-box1 {
+            padding: 0px 15px 0px 43px;
+            border-style: solid;
+            border-width: 0px 1px 0px 0px;
+            border-color: #EAEAE2;
+        }
+
+        .main-box2 {
+            padding: 0px 15px 0px 43px;
+            border-style: solid;
+            border-width: 0px 1px 0px 0px;
+            border-color: #EAEAE2;
+        }
+
+        .main-box3 {
+            padding: 0px 15px 0px 43px;
+            border-style: solid;
+            border-width: 0px 1px 0px 0px;
+            border-color: #EAEAE2;
+        }
+    }
+
+   
+}

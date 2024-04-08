@@ -1,0 +1,94 @@
+.sec1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -10;
+    background-color: #ffffff;
+
+
+    .sec1-titles {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        
+        h3 {
+            z-index: -4;
+            font-size: 30px;
+            font-family: "Caveat", sans-serif;
+            color: #7d8978;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2A491D;
+            font-size: 90px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 800;
+            line-height: 1em;
+            margin-bottom: 37px;
+        }
+
+        .firstlink {
+            background-color: #FFBD3C;
+            padding: 16px 38px;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 14px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 800;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: #50A72C;
+            }
+        }
+
+        .secondlink {
+            background-color: #50A72C;
+            padding: 16px 38px;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 14px;
+            font-family: "Manrope", sans-serif;
+            font-weight: 800;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: #FFBD3C;
+            }
+        }
+    }
+
+    .brocolli {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+    }
+
+    .basket {
+        position: absolute;
+        top: 10%;
+        right: 0;
+    }
+
+    .tomato {
+        position: absolute;
+        bottom: 15%;
+        left: 55%;
+    }
+
+    .lemon {
+        position: absolute;
+        right: 10%;
+        bottom: -12%;
+        z-index: 1;
+    }
+
+}
+
+
